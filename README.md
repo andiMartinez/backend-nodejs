@@ -1,5 +1,4 @@
-# backend-nodejs
-repository backend nodejs 
+# CURSO NODE
 
 ## CHALLENGES IN DEVELOP BRANCH
 ### TO RUNNING THE DEVELOP BRANCH
