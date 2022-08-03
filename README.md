@@ -1,6 +1,7 @@
 # CURSO NODE
 
 ##### CHALLENGES IN DEVELOP BRANCH
-### TO RUNNING THE DEVELOP BRANCH
-git clone -> git checkout develop -> node xxx.js
 
+### TO RUNNING THE CHALLENGE 2 FROM DEVELOP BRANCH
+
+git clone -> git checkout develop -> node Book.js
