@@ -14,6 +14,17 @@ class Books {
     }
   }
 
+  async getRandomBook() {
+    const books = await this.listarAll();
+    const randomIndex = Math.floor(Math.random() * books.length);
+    console.log(books[randomIndex]);
+  }
+
+  async getAllBooks() {
+    const books = await this.listarAll();
+    return books;
+  }
+
   async guardar(obj) {
     try {
       const objs = await this.listarAll();
@@ -104,3 +115,5 @@ async function main() {
   console.log(await books.listarAll());
 }
 main();
+
+module.exports = Books;

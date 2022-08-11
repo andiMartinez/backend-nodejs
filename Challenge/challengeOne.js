@@ -25,6 +25,11 @@ class Usuario {
   countMascotas() {
     console.log(this.mascotas.length);
   }
+
+  getRandomBook() {
+    const randomIndex = Math.floor(Math.random() * this.libros.length);
+    return this.libros[randomIndex];
+  }
 }
 
 const u1 = new Usuario(
@@ -54,3 +59,5 @@ console.log(u1);
 u1.countMascotas();
 
 u1.getBookNames();
+
+module.exports = Usuario;
